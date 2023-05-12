@@ -178,3 +178,77 @@ a{
   color: #ff523b;
 }
 /* featured product end */
+ 
+/* offer section start  */
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+  margin: 10px;
+  padding: 40px 0;
+}
+
+.offer img{
+    padding: 50px;
+}
+
+small{
+  color: #555  ;
+}
+/* offer section end  */
+
+/* Testimonial section start  */
+.testimonial{
+    margin-top: 50px;
+}
+.testimonial .col-3{
+      margin: 20px auto;
+      padding: 30px 0;
+      text-align: center;
+      box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+      transition: 0.6s;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+.testimonial .col-3 img{
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.fa-solid .fa-quote-left{
+  font-size: 34px;
+  color: #ff523b;
+}
+.col-3 p{
+  font-size: 12px;
+  margin: 12px 10px;
+  color: #777;
+}
+.col-3 h3{
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+/* Testimonial section end  */
+
+/* brnd start  */
+.brands{
+  margin: 60px auto;
+  width: 1050px;
+}
+.brands .col-5{
+    flex-basis: 20%;
+    padding: 0 10px;
+   
+    
+}
+.brands .col-5 img{
+  width: 100%;
+  width: 150px;
+  cursor: pointer;
+  filter: grayscale(80%);
+}
+.brands .col-5 img:hover{
+  filter:grayscale(0) ;
+}
+/* brand end  */
