@@ -252,3 +252,31 @@ small{
   filter:grayscale(0) ;
 }
 /* brand end  */
+
+
+/* footer start  */
+
+.footer{
+    background: #000000;
+    margin-top:30px ;
+    padding:60px 0 20px;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+.footer p{
+  color: #8a8a8a;
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-2 img{
+  width: 70px;
+}
