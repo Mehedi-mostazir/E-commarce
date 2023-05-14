@@ -102,7 +102,7 @@ a{
   background-color:#fd98b3 ;
 }
 .header{
-  background: radial-gradient(#fff,#ffd6d6)
+  background: radial-gradient(#eba7a7,#84abff)
 }
 
 /* end header section */
@@ -181,7 +181,7 @@ a{
  
 /* offer section start  */
 .offer{
-  background: radial-gradient(#fff,#ffd6d6);
+  background: radial-gradient(#eba7a7,#84abff);
   margin: 10px;
   padding: 40px 0;
 }
@@ -257,7 +257,7 @@ small{
 /* footer start  */
 
 .footer{
-    background: #000000;
+    background-color: #161515;
     margin-top:30px ;
     padding:60px 0 20px;
     color: #8a8a8a;
@@ -325,6 +325,40 @@ ul{
   margin-left: 10px;
   display: none;
 }
+
+/* All product html  */
+
+.row-2{
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+.row-2 select{
+  border: 2px solid #bb3321;
+  padding: 5px;
+}
+.row-2 select:focus{
+  outline: none;
+}
+
+.page-btn{
+  margin: 10px auto 30px;
+}
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #d547f1;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.page-btn span:hover{
+  background-color: #d547f1;
+  color: #fff;
+}
+
+
 /* responsive  */
 
 /* media query for menu  */
