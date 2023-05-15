@@ -56,20 +56,20 @@
     <div class="small-container single-product">
       <div class="row">
         <div class="col-2">
-            <img src="image/galary-1.jpg" alt="" style="max-height: 450px;">
+            <img src="image/galary-1.jpg" alt="" style="max-height: 450px;" id="productImg">
 
             <div class="small-img-row">
               <div class="small-img-col">
-                <img src="image/galary-1.jpg" alt="">
+                <img src="image/galary-1.jpg" alt="" class="smallImg">
               </div>
               <div class="small-img-col">
-                <img src="image/galary-1.jpg" alt="">
+                <img src="image/catagory-1.jpg" alt="" class="smallImg">
               </div>
               <div class="small-img-col">
-                <img src="image/galary-1.jpg" alt="">
+                <img src="image/catagory-2.jpg" alt="" class="smallImg">
               </div>
               <div class="small-img-col">
-                <img src="image/galary-1.jpg" alt="">
+                <img src="image/catagory-3.jpg" alt="" class="smallImg">
               </div>
             </div>
 
@@ -88,8 +88,16 @@
             <a href="" class="btn">Add To Cart</a>
             <h3>Product details <i class="fa fa-indent"></i></h3>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vero, iure non voluptate alias, asperiores libero consequatur odio ea, repudiandae est architecto labore blanditiis explicabo!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vero, iure non voluptate alias, asperiores libero consequatur odio ea, repudiandae est architecto labore blanditiis explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis quos possimus distinctio ullam qui asperiores ducimus harum tempora velit!</p>
         </div>
+      </div>
+    </div>
+
+    <!-- title -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View more</p>
       </div>
     </div>
 
@@ -219,6 +227,33 @@
       }
     }
   </script>
+
+  <!-- js for product galarry  -->
+  <script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementsByClassName("smallImg");
+
+    smallImg[0].onclick= function()
+    {
+      productImg.src = smallImg[0].src;
+    }
+
+    smallImg[1].onclick= function()
+    {
+      productImg.src = smallImg[1].src;
+    }
+
+    smallImg[2].onclick= function()
+    {
+      productImg.src = smallImg[2].src;
+    }
+
+    smallImg[3].onclick= function()
+    {
+      productImg.src = smallImg[3].src;
+    }
+  </script>
+
 
 </body>
 </html>
